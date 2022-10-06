@@ -83,13 +83,24 @@ async function index() {
     );
     // $('#main').show();
 
+    GUI.addYear(2022, 'poster')
+    GUI.addPoster(
+        {
+            href: '/pdf/AMPS2022.pdf',
+            html: `<h1>Les protéines à domaine sec14 comme nouvelle cible thérapeutique contre le parasite de la malaria <i>Plasmodium falciparum</i> ?</h1>
+                        <h2><b>Lauruol, F.</b>, Gagnon, D., Richard, D.</h2>
+                        <h3>Journées de la recherche de la Faculté de médecine – Université Laval, Québec, Canada</h3>`
+        }
+    );
+
     GUI.addYear(2021, 'poster')
     GUI.addPoster(
         {
             href: '/pdf/poster-2021.pdf',
-            html: `<h1>Les protéines à domaine sec14 comme nouvelle cible thérapeutique contre le parasite de la malaria <i>Plasmodium falciparum</i> ?</h1>
+            html: `<h1>Characterization of sec14 proteins in the
+            malaria parasite <i>plasmodium falciparum<i></h1>
                         <h2><b>Lauruol, F.</b>, Gagnon, D., Richard, D.</h2>
-                        <h3>Journées de la recherche de la Faculté de médecine – Université Laval, Québec, Canada</h3>`
+                        <h3>Annual Montreal Parasitology Symposium – Université de Montréal, St-Hyacinthe, Canada</h3>`
         }
     );
 
