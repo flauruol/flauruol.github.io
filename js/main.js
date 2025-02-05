@@ -28,6 +28,25 @@ async function index() {
     GUI.hideItems();
     $('#portfolio').removeClass('active');
 
+    GUI.addYear(2024, 'publications');
+    GUI.addPublication(
+        {
+            href: 'https://www.cell.com/trends/parasitology/abstract/S1471-4922(24)00307-6',
+            html: `<h1>Sec14 proteins in the apicomplexan parasites <i>Plasmodium</i> and <i>Toxoplasma</i></h1>
+                        <h2><b>Lauruol, F.</b>, A., Richard, D.</h2>
+                        <h3>Trends in Parasitology, Volume 40, Issue 12, 1081 - 1084 </h3>`
+        }
+    );
+	
+    GUI.addPublication(
+        {
+            href: 'https://www.biorxiv.org/content/10.1101/2024.10.07.617026v1',
+            html: `<h1>Characterization of the <i>Plasmodium falciparum</i> homologue of Vps16, a member of the Vps-C tethering complex</h1>
+                        <h2>Galaup, T., <b>Lauruol, F.</b>, Sergerie, A., Richard, D.</h2>
+                        <h3>bioRxiv preprint</h3>`
+        }
+    );
+	
     GUI.addYear(2022, 'publications');
     GUI.addPublication(
         {
