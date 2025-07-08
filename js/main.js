@@ -34,10 +34,10 @@ async function index() {
             href: 'https://journals.asm.org/doi/10.1128/msphere.00287-25',
             html: `<h1>The <i>Plasmodium falciparum</i> homolog of Vps16 interacts with the core members of the Vps-C tethering complex</h1>
                         <h2><b>Lauruol, F.</b>, Galaup, T., Bourgeois, A., Sergerie, A., Richard, D.</h2>
-                        <h3>mSphere 0:e00287-25</h3>
+                        <h3>mSphere 0:e00287-25</h3>`
         }
     );
-
+    
     GUI.addYear(2024, 'publications');
     GUI.addPublication(
         {
